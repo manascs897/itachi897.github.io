@@ -56,9 +56,9 @@ body, html {
 }
 
 a{
-  color: aquamarine;
+  color: darkred;
 }
 div header a:hover,a:focus
 a:active{
-  color: green;
+  color: darkgrey;
 }
