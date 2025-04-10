@@ -1,24 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime_Watchers</title>
-    <link rel="stylesheet" href="CSS/index.css">
-</head>
-<body> 
-    <div class="bg-image"></div>
 
-         <div class="bg-text">
-             <h1>Hey weebs! </h1>
-            <p>This is an anime website where you can binge all your favourite animes.</p>
-        </div>
-    <div class="headers">
-        <p>Here are the BIG3 (:</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manas | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <h1>Manas</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm Manas 👋</h2>
+    <p>MCA Student at AKGEC | Backend Developer | C++ Enthusiast</p>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm currently pursuing my MCA at Ajay Kumar Garg Engineering College and will graduate in 2026. With a background in BCA, I've built a strong foundation in computer science and software development. I'm passionate about backend technologies, problem-solving, and exploring new tools and frameworks.
+      <br /><br />
+      I’m highly punctual, hardworking, and disciplined. I believe in continuous learning, whether it’s building my own IRCTC backend system or exploring real-time applications like a chatbox. My goal is to get placed in a well-reputed company and build a successful career.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><strong>Languages:</strong> C++, Java (learning), JavaScript, SQL</li>
+      <li><strong>Databases:</strong> MySQL, JSON-based DBs</li>
+      <li><strong>Tools & Frameworks:</strong> Git, GitHub, Node.js, Socket.io, SFML (basic)</li>
+      <li><strong>Soft Skills:</strong> Problem-solving, Time management, Clear objective setting</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>IRCTC Backend System</h3>
+      <p>
+        A simulation of the IRCTC booking system using Core Java and JSON as a database. Implemented core Java concepts and collections framework.
+      </p>
+      <a href="https://github.com/manascs897/IRCTC" target="_blank">View on GitHub</a>
     </div>
-    <div class="heading">
-        <header><a href="https://animepahe.com/anime/5590f3d5-b0c2-b032-22cd-7b1d5b667c3a" target="_blank" rel="noopener noreferrer">One Piece</a>
+
+    <div class="project">
+      <h3>Messenger Chatbox</h3>
+      <p>
+        A real-time messaging app built using Node.js and Socket.io along with HTML, CSS, and JavaScript. Implements user connections and chat interactions via sockets.
+      </p>
+      <a href="https://github.com/manascs897/MessengerChatbox" target="_blank">View on GitHub</a>
     </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <h2>Achievements & Certifications</h2>
+    <ul class="skills-list">
+      <li>2nd place in AKGEC MCA Coding Competition</li>
+      <li>Solved 300+ DSA problems on LeetCode, improving problem-solving skills and algorithmic efficiency.</li>
+      <li>3-time GitHub Hacktoberfest Participant</li>
+      <li>Completed Accenture UK Developer & Technology Virtual Experience (Forage)</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sharmamanas789@gmail.com">sharmamanas789@gmail.com</a></p>
+    <p>
+      <a href="https://github.com/manascs897" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Manas. All rights reserved.</p>
+  </footer>
+
 </body>
+
 </html>
