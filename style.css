@@ -1,0 +1,142 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode header {
+    background-color: #1f1f1f;
+  }
+  
+  body.dark-mode nav a {
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode footer {
+    background-color: #1f1f1f;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Dark Mode Toggle */
+  #darkModeToggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 60px 20px;
+    background: #008080;
+    color: white;
+    text-align: center;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 20px;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .skills-list {
+    list-style: disc inside;
+    margin-top: 10px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project a {
+    color: #008080;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .hero, section {
+      padding: 30px 10px;
+      text-align: center;
+    }
+  
+    .project h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
